@@ -97,7 +97,11 @@ def user_home():
 def logout():
     session.clear()
     return redirect(url_for("index"))
+   
+app.run(host="0.0.0.0", port=8070)
 
-if(__name__=='__main__'):
-    app.secret_key = '123'
-    app.run(debug=True)
+
+
+#if(__name__=='__main__'):
+ #   app.secret_key = '123'
+ #   app.run(debug=True)
