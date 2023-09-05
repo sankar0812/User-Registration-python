@@ -9,7 +9,7 @@ pipeline {
      }
      stage("run docker container"){
         steps{
-                sh "docker run -d --name python -p 8070:8070 pythonapp:$BUILD_NUMBER"
+                sh "docker run -d --name python -p 8090:8090 pythonapp:$BUILD_NUMBER"
         }
      }
   }   
