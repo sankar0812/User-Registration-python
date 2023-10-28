@@ -1,6 +1,6 @@
 .navbar-inverse{
-     background-color:#154660;
-     border-color:#154660;
+     background-color:#06a3f7;
+     border-color:#0f2633;
 }
 .navbar .navbar-brand{
      font-size: 20px;
@@ -14,5 +14,5 @@
     color: orange;
 }
 .navbar {
-   box-shadow: 1px 1px 5px black;
+   box-shadow: 1px 1px 5px rgb(58, 4, 4);
 }
